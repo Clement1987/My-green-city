@@ -4,12 +4,10 @@ section#Associations
     padding: 0%;
     background-color: #dae8d5;
     color:#292f36;
-    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 section#Associations h1
 {
-    font-family: 'Livvic', sans-serif;
     text-align: center;
 }
 
@@ -70,11 +68,6 @@ section#Associations div.layoutAssoc div:nth-of-type(even) figure a
     flex-direction: row-reverse
 }
 
-section#Associations h2
-{
-    font-family: 'Livvic', sans-serif;
-}
-
 
 section#Associations a
 {
@@ -111,7 +104,7 @@ section#Associations span
 
     section#Associations div.layoutAssoc div.layoutAllAssoc
     {
-        height: 490px;
+        height: 700px;
     }
 
     section#Associations div.layoutAssoc div figure
