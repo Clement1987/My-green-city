@@ -1,0 +1,122 @@
+section#Associations 
+{
+    margin: 0%;
+    padding: 0%;
+    background-color: #dae8d5;
+    color:#292f36;
+}
+
+section#Associations h1
+{
+    text-align: center;
+}
+
+.layoutAssoc
+{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+
+}
+
+.layoutAssoc img
+{
+    width: 50%;
+}
+
+section#Associations div.layoutAssoc div.layoutAllAssoc
+{
+    border-radius: 10px;
+   /* background-image: url('https://image.freepik.com/photos-gratuite/texture-bois-pour-design-decoration_23-2148283214.jpg') ; */
+    background-repeat: repeat-y;
+    background-color:#A3E094;
+    background-size: cover;
+    color: #dae8d5;
+}
+
+section#Associations div.layoutAssoc div
+{   
+    padding: 2%;
+    margin: 1%;
+}
+
+section#Associations div.layoutAssoc div figure a img
+{
+    align-self: flex-start;
+    flex-direction: unset;
+    flex-wrap: nowrap;
+}
+
+section#Associations div.layoutAssoc div figure a
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+section#Associations div.layoutAssoc div figure a div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+section#Associations div.layoutAssoc div:nth-of-type(even) figure a 
+{
+    flex-direction: row-reverse
+}
+
+
+section#Associations a
+{
+    text-decoration: none;
+    color: #292f36;
+    align-items: center;
+    text-align: center;
+    padding: 1%;
+}
+
+
+section#Associations span
+{
+    font-weight: bold;
+}
+
+@media screen and (min-width: 990px)
+{
+    .layoutAssoc img
+    {
+        width: 100%;
+    }
+
+    .layoutAssoc
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding: 1%;
+
+    }
+
+    section#Associations div.layoutAssoc div.layoutAllAssoc
+    {
+        height: 700px;
+    }
+
+    section#Associations div.layoutAssoc div figure
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    section#Associations div.layoutAssoc div figure a 
+    {
+        display: unset;
+    }
+}
