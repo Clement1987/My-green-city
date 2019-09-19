@@ -1,0 +1,107 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    background-color: #dae8d5;
+    color:#292f36;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1
+{
+    font-family: 'Livvic', sans-serif;
+    text-align: center;
+    margin: 3%;
+    font-size: 3rem;
+}
+
+h2
+{
+    font-family: 'Livvic', sans-serif;
+    text-align: center;
+    margin:2%;
+}
+
+section.Info p a
+{
+    vertical-align: text-top;
+    
+}
+
+section.Info p a img
+{
+    width: 3%;
+    vertical-align: middle;
+    padding: 0.5%;
+}
+
+section.Info div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1%;
+    text-align: center;
+}
+
+.desktop
+{
+    display: none;
+}
+
+section.Info div div
+{
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+
+section.Description
+{
+    padding: 2%;
+    background-color: #81d56d;
+}
+
+section.Description div
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+section.Description h2
+{
+    background-color: #81d56d;
+}
+
+section.Description div p
+{
+    background-color: #81d56d;
+}
+
+.mobileImage
+{
+    width : 60%;
+}
+
+li 
+{
+    background-color: #81d56d;
+    list-style: none;
+}
+
+ul
+{
+    background-color: #81d56d;
+}
+
+@media screen and (min-width: 990px)
+{
+    .mobileImage
+    {
+        width : 100%;
+    }
+
+
+}
