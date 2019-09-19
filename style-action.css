@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section {
+    background: rgb(227, 248, 195);
+}
+.action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 1rem;
+    width: 95%;
+}
+.item {
+    background: white;
+    display: flex;
+    width: 90vw ;
+    margin: 20px;
+
+    box-shadow: 3px 3px 5px rgb(187, 186, 186);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    }
+
+.article {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+
+}
+.article-tag {
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    background: #292f36;
+    font-size: 0.8em;
+    color: white;
+    font-weight: bold;
+    width: intrinsic;           /* Safari/WebKit utilisent un nom non-standard */
+    width: -moz-max-content;    /* Firefox/Gecko */
+    width: -webkit-max-content; /* Chrome */
+    padding:.4em;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    box-shadow: 2px 2px 8px rgb(196, 194, 194);
+}
+.article-containt {
+    display: flex;
+    text-align: center;
+    float: left;
+}
+.img200 {
+    width: 200px;
+    height: 200px;
+    box-shadow: 2px 2px 8px rgb(196, 194, 194);
+    margin-bottom: 22px;
+
+}
+.article-body {
+    margin: 0 1em;
+}
+.article-body-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1em;
+    height: 5em;
+}
+.article-body-text {
+    padding: 0.5em;
+}
+.item:nth-child(odd) article.article div.article-containt{
+    flex-direction: row-reverse;
+}
+.item:nth-child(odd) article.article div.article-containt .img200{
+    box-shadow:-2px 2px 8px rgb(196, 194, 194);
+}
+
+details {
+    margin-top: 10px;
+    text-align: left;
+}
+summary {
+    font-size: 0.8rem;
+    text-align: center
+}
+details[open] summary {
+    color: #b8eb65;
+    
+}
+
+@media screen and (min-width: 991px) {
+    .item:nth-child(odd) article.article div.article-containt{
+        display: flex;
+        flex-direction: column;
+    }
+    .item:nth-child(odd) article.article div.article-containt .img200{
+            box-shadow:none;
+    }
+    .action {
+        flex-direction: row;
+        margin: auto;
+        align-items: stretch;
+    }
+    .item {
+        height: auto;
+    }
+    .article-containt{
+        flex-direction: column;
+    } 
+    .article-containt .img200 {
+        align-self: center;
+        box-shadow: none;
+    }
+    .img200 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+}
