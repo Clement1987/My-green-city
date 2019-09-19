@@ -3,9 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-section {
-    background: rgb(227, 248, 195);
-}
+
 .action {
     display: flex;
     flex-direction: column;

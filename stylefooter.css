@@ -58,7 +58,7 @@ h1{
 	-webkit-animation-delay: 12s;
 }
 #form{
-	height: 100%;	
+	padding-bottom: 5rem;
 	background-color: #7897FF;
 	overflow: hidden;
 	position: relative;
