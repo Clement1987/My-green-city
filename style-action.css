@@ -65,8 +65,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 1em;
-    height: 5em;
+    padding-left: 1rem;
+    height: 5rem;
 }
 .article-body-text {
     padding: 0.5em;
@@ -82,11 +82,11 @@ details {
     margin-top: 10px;
     text-align: left;
 }
-summary {
+.action_summary{
     font-size: 0.8rem;
     text-align: center
 }
-details[open] summary {
+details[open] .action_summary {
     color: #b8eb65;
     
 }
