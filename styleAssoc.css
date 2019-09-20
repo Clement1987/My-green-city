@@ -2,9 +2,13 @@
 {
     margin: 0%;
     padding: 0%;
-    background-color: #dae8d5;
-    color:#292f36;
     font-family: 'Open Sans Condensed', sans-serif;
+}
+
+header nav
+{
+    background-color: #292f36;
+    color: #dae8d5 ;
 }
 
 h1
@@ -20,6 +24,12 @@ h2
     font-family: 'Livvic', sans-serif;
     text-align: center;
     margin:2%;
+}
+
+section.Info
+{
+    background-color: #dae8d5;
+    color:#292f36;
 }
 
 section.Info p a
@@ -85,13 +95,13 @@ section.Description div p
     width : 60%;
 }
 
-li 
+.Description li 
 {
     background-color: #81d56d;
     list-style: none;
 }
 
-ul
+.Description ul
 {
     background-color: #81d56d;
 }
