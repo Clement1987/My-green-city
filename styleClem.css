@@ -11,12 +11,12 @@ body {
 	background-color: white;
 }
 
-h3,h4,h5 {
+/*h3,h4,h5 {
 	font-family: 'Livvic', sans-serif;
 	text-align: center;
 	margin:2em 0 2em 0;
 	font-size: 24px;
-}
+}*/
 
 
 img {
@@ -24,9 +24,20 @@ img {
 	height: auto;
 }
 
-
+.good_practice_txt{
+	margin: 20px 0 20px 0;
+}
 .composter_text{
+	display: flex;
+	flex-direction: column;
+}
 
+.composter_text h2, .composter_text h3, .composter_text h4{
+	margin: 20px 0 20px 0;
+}
+
+.composter_text_text{
+	margin:0 0 25px 0 ;
 }
 .composter_picture, .good_practice_picture {
 	display: flex;
@@ -42,10 +53,19 @@ img {
 .composter_picture img {
 	border-radius: 10px;
 }
-
+.dechettery_clock h3{
+	margin-top: 20px;
+	margin-bottom:20px;
+}
+.dechettery_table{
+	margin-bottom: 20px;
+}
 .dechettery_address {
 	display: flex;
 	flex-direction: column;
+}
+.dechettery_address h3{
+	margin:20px 0 20px 0;
 }
 
 .dechettery_ul {
@@ -82,6 +102,12 @@ caption {
 	display: flex;
 	flex-direction:column;
 	align-items: center;
+}
+.vegetri_address h3{
+	margin-bottom: 20px;
+}
+.vegetri_clock h3{
+	margin: 20px 0 20px 0;
 }
 
 .no-vsisible{
