@@ -96,6 +96,16 @@ ul
     background-color: #81d56d;
 }
 
+footer div 
+{
+   background-color: #000000;
+}
+
+footer div a 
+{
+   background-color: #000000;
+}
+
 @media screen and (min-width: 990px)
 {
     .mobileImage
