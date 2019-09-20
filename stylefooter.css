@@ -58,8 +58,8 @@ h1{
 	-webkit-animation-delay: 12s;
 }
 #form{
-	padding-bottom: 5rem;
-	background-color: #7897FF;
+	height: 100%;	
+	background-color: #000000;
 	overflow: hidden;
 	position: relative;
 }
@@ -138,7 +138,7 @@ label{
 footer {
   display: flex;
   justify-content: center;
-  background-color: #7897FF;
+  background-color: #000000;
   width: 100%;
   padding: 15px 0;
 }
