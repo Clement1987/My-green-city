@@ -37,7 +37,7 @@ img {
 }
 
 .composter_text_text{
-	margin:0 0 25px 0 ;
+	margin:0 10px 25px 10px ;
 }
 .composter_picture, .good_practice_picture {
 	display: flex;
@@ -105,6 +105,7 @@ caption {
 }
 .vegetri_address h3{
 	margin-bottom: 20px;
+	
 }
 .vegetri_clock h3{
 	margin: 20px 0 20px 0;
@@ -146,6 +147,55 @@ caption {
 	}
 	table {
 		width: 100%;
+	}
+	.composter_text_text{
+		margin:0 10px 25px 10px ;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 50%;
+		padding: 0.8em;
+		margin:0;
+	}
+	.composter_picture {
+		display:flex;
+		justify-content: center;
+		width: 50%;
+	}
+	.composter_picture img{
+		width: 60%;
+	}.composter_border {
+		display: flex;
+		width: 95%;
+		margin: auto;
+		box-shadow: 3px 5px rgb(187,186,186);
+		border-bottom-left-radius: 20px;
+		border-bottom-right-radius: 20px;
+		padding-bottom: 40px;
+	}
+	.good_practice {
+		margin-top: 40px;
+		display: flex;
+		flex-direction: row-reverse;
+		border:3px solid red;
+	}
+	.good_practice_picture{
+		width: 60%;
+		height: auto;
+		border:3px solid blue;
+	}
+	.good_practice_picture img{
+		width: 80%;
+		height: auto;
+	}
+	.good_practice_txt{
+		width: 40%;
+		display: flex;
+		align-items: center;
+		border:3px solid green;
+	}
+	.good_practice_txt p{
+		font-size: 1.7rem;
 	}
 }
 
