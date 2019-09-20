@@ -104,7 +104,7 @@ caption {
 	align-items: center;
 }
 .vegetri_address h3{
-	margin-bottom: 20px;
+	margin: 20px 0 20px 0 ;
 	
 }
 .vegetri_clock h3{
@@ -114,6 +114,12 @@ caption {
 .no-vsisible{
 	visibility: hidden;
 }
+.blockdechet {
+		background: #dae8d5;
+		padding: 10px;
+		margin-top: 20px;
+}
+
 @media screen and (min-width: 600px) {
 	img{
 		width: 70%;
@@ -127,7 +133,7 @@ caption {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
-		margin: 20px 0 20px 0;
+		margin: 40px 0 20px 0;
 		
 	}
 	.dechettery_address, .vegetri_border{
@@ -140,10 +146,10 @@ caption {
 		margin-top: 250px;
 	}
 	.dechettery_address{
-		background-color:#7897ff;
+		background-color: white;
 	}
 	.vegetri_border{
-		background-color:#81d56d;
+		background-color:white;
 	}
 	table {
 		width: 100%;
@@ -162,8 +168,9 @@ caption {
 		justify-content: center;
 		width: 50%;
 	}
+
 	.composter_picture img{
-		width: 60%;
+		width: 50%;
 	}.composter_border {
 		display: flex;
 		width: 95%;
@@ -174,15 +181,19 @@ caption {
 		padding-bottom: 40px;
 	}
 	.good_practice {
-		margin-top: 40px;
+		margin: auto;
+		margin-top: 5px;
+		scroll-margin-bottom: 40px;
 		display: flex;
+		width: 95%;
 		flex-direction: row-reverse;
-		border:3px solid red;
+		
+		
 	}
 	.good_practice_picture{
 		width: 60%;
 		height: auto;
-		border:3px solid blue;
+		
 	}
 	.good_practice_picture img{
 		width: 80%;
@@ -192,10 +203,20 @@ caption {
 		width: 40%;
 		display: flex;
 		align-items: center;
-		border:3px solid green;
+		
 	}
 	.good_practice_txt p{
 		font-size: 1.7rem;
+	}
+	.dechettery_address {
+		box-shadow: 3px 5px rgb(187,186,186);
+		border-bottom-left-radius: 20px;
+		border-bottom-right-radius: 20px;
+	}
+	.vegetri_border {
+		box-shadow: 3px 5px rgb(187,186,186);
+		border-bottom-left-radius: 20px;
+		border-bottom-right-radius: 20px;
 	}
 }
 

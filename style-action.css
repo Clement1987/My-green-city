@@ -17,7 +17,8 @@
     display: flex;
     width: 90vw ;
     margin: 20px;
-
+    border-left: 0.1px solid lightgray;
+    border-top:  0.1px solid lightgray;
     box-shadow: 3px 3px 5px rgb(187, 186, 186);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -84,7 +85,7 @@ details {
     text-align: left;
 }
 .action_summary{
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     text-align: center
 }
 details[open] .action_summary {

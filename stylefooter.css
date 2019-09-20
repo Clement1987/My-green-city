@@ -58,7 +58,8 @@ h1{
 	-webkit-animation-delay: 12s;
 }
 #form{
-	height: 62%;	
+	height: auto;
+	padding-bottom: 25px;	
 	background-color: #000000;
 	overflow: hidden;
 	position: relative;
@@ -114,7 +115,7 @@ input[type="submit"]{
 }
 input[type="submit"]:hover{
 	background-color: #C7FF6D;
-  margin-top: 15px;
+
 }
 label{
 	font-size: 1.5em;
@@ -140,7 +141,7 @@ footer {
   justify-content: center;
   background-color: #000000;
   width: 100%;
-  padding: 15px 0;
+  padding-top: 50px;
 }
 footer div {
   width: 30%;
