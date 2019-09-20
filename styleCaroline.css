@@ -6,8 +6,21 @@ section#Associations
     color:#292f36;
 }
 
-section#Associations h1
+section#Associations h2
 {
+    text-align: center;
+}
+
+section#Associations h3
+{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0.5%;
+}
+
+section#Associations p
+{
+    margin-top: 1%;
     text-align: center;
 }
 
@@ -104,7 +117,7 @@ section#Associations span
 
     section#Associations div.layoutAssoc div.layoutAllAssoc
     {
-        height: 700px;
+        height: 600px;
     }
 
     section#Associations div.layoutAssoc div figure
